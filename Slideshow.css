@@ -1,0 +1,29 @@
+/* Styles for the slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Styles for individual slides */
+  .slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Style for the active slide */
+  .active {
+    display: block;
+  }
+  
+  /* Style for the image within the slide */
+  .slide img {
+    display: block;
+    margin: 10px auto; /* Align the image horizontally in the center */
+    width: 50%;
+    height: auto;
+  }
+  
+  /* You can add additional styles as needed */
+  
